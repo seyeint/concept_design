@@ -8,3 +8,6 @@ Any downsides to spamming heads besides computing cost and memory usage?
 
 Main problems with transformers?
 - Quadratic scaling from context windows (long sequences melts memory and inference times, inference times are linearly affected by KV).
+
+Pros of new architecture Hawk:
+- Local attention accurately models the recent past while the recurrent layer can transmit info across long sequences. Uses the same residual pattern and MLP block as the transformers but Griffin uses mix of recurrent and MQA blocks (hybrid?).
