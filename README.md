@@ -11,3 +11,5 @@ Main problems with transformers?
 
 Pros of new architecture Hawk:
 - Local attention accurately models the recent past while the recurrent layer can transmit info across long sequences. Uses the same residual pattern and MLP block as the transformers but Griffin uses mix of recurrent and MQA blocks (hybrid?).
+
+RAGs > most finetuning solutions 
