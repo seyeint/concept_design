@@ -1,0 +1,2 @@
+# concept_design
+thoughts
